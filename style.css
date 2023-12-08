@@ -1,4 +1,67 @@
 /*Cabecera de la pagina Home */
-.logo.cabecera {
+
+.logoCabecera img {
+    margin: 5%;
+    width: 40%;
+}
+
+@media screen and (min-width:992px){
+.logoCabecera-lg img {
+    margin: 2%;
+    width: 50%;
+}
+}
+
+.letrasCabeceraCurvas * {
+    float: right;
+}
+
+.letrasCabecera {
+    margin-right: 0%;
+    margin-top: 10%;
+    width: 60%;
+}
+
+.letrasCurvas {
+    width: 20%;
+}
+
+
+/*menu */
+
+.menu {
+   width: 100%;
+}
+
+.menu ul {
+list-style-type: none;
+}
+
+
+.menu li {
+    float: left;
+    text-align: center;
+    margin-top: 5%;
+    color: #004569;
     
+}
+
+
+.menu ul li a {
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 1.8em;
+    padding: 5%;
+}
+
+
+.menu li a:hover:not(.active) {
+    background-color: #2EAEEA;
+    border-radius: 4%;
+
+  }
+  .active {
+    color: white;
+    background-color: #004569;
+    border-radius: 4%;
 }
