@@ -56,7 +56,7 @@ list-style-type: none;
 
 
 .menu li a:hover:not(.active) {
-    background-color: #2EAEEA;
+    background-color: #96c5de;
     border-radius: 4%;
 
   }
