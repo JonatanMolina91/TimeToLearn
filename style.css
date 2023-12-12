@@ -1,6 +1,12 @@
 /*Letra fuente*/
 * {
     font-family: 'Roboto', sans-serif;
+
+}
+
+.todo{
+    padding: 0px;
+    margin: 0px;
 }
 
 /*Cabecera de la pagina Home */
@@ -11,7 +17,8 @@
 
 .logoCabecera img {
     margin: 5%;
-    width: 40%;
+    width: 45%;
+    float: right;
 }
 
 
@@ -21,8 +28,9 @@
 
 .letrasCabecera {
     margin-right: 0%;
-    margin-top: 10%;
-    width: 40%;
+    margin-top: 20%;
+    width: 45%;
+    float: left;
 }
 
 .letrasCurvas {
@@ -34,14 +42,22 @@
     .logoCabecera-lg img {
         margin: 2%;
         width: 50%;
+        float: none;
     }
 
     
 .letrasCabecera-lg {
     margin-right: 0%;
-    margin-top: 10%;
+    margin-top: 15%;
     width: 65%;
+    float: none;
 }
+
+
+.menu-lg {
+    margin-top: 5%;
+}
+
 }
 
 
@@ -61,17 +77,16 @@
 .menu li {
     float: left;
     text-align: center;
-    color: #004569;
     padding-bottom: 2%;
-
 }
 
-
 .menu ul li a {
+   
     text-decoration: none;
     font-weight: bolder;
     font-size: 1.6em;
-    padding: 2%;
+    padding: 10px;
+    
 }
 
 
@@ -81,12 +96,65 @@
 
 }
 
-.active {
-    color: white;
-    background-color: #004569;
-    border-radius: 4%;
+.no-active {
+    color: #004569;
 }
 
+.active{
+    background-color: #004569;
+    border-radius: 4%;
+    color: white;
+}
+
+
+
+
+
+/* estilo de las cajas */
+
+.titulo-cajas {
+    text-align: center;
+    font-size: 4em;
+    font-weight: bolder;
+    margin-bottom: 5%;
+}
+
+.contenedor-cajas {
+    background-color: #A0D2EB;
+    padding-bottom: 3%;
+    margin-left: 0px;
+}
+
+.caja {
+
+    margin-left: 1%;
+    border: 10px solid white;
+    border-radius: 80px;
+    overflow-wrap:break-word;
+    background-color: white;
+    box-shadow: 5px 5px 5px black;
+    margin-bottom: 5%;
+}
+
+.caja * {
+    margin: 5%;
+}
+.caja img {
+    width: 90%;
+    border-radius: 50px;
+   
+    
+}
+
+.caja h3 {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.caja p {
+    font-size: x-large;
+    padding: 1%;
+}
 
 /*Colores de fondo*/
 /*Azul #4088b0*/
