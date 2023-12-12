@@ -5,17 +5,15 @@
 
 /*Cabecera de la pagina Home */
 
+.logoCabecera{
+    width: 100%;
+}
+
 .logoCabecera img {
     margin: 5%;
     width: 40%;
 }
 
-@media screen and (min-width:992px) {
-    .logoCabecera-lg img {
-        margin: 2%;
-        width: 50%;
-    }
-}
 
 .letrasCabeceraCurvas * {
     float: right;
@@ -24,11 +22,26 @@
 .letrasCabecera {
     margin-right: 0%;
     margin-top: 10%;
-    width: 60%;
+    width: 40%;
 }
 
 .letrasCurvas {
     width: 20%;
+}
+
+
+@media screen and (min-width:992px) {
+    .logoCabecera-lg img {
+        margin: 2%;
+        width: 50%;
+    }
+
+    
+.letrasCabecera-lg {
+    margin-right: 0%;
+    margin-top: 10%;
+    width: 65%;
+}
 }
 
 
@@ -41,14 +54,15 @@
 
 .menu ul {
     list-style-type: none;
+    
 }
 
 
 .menu li {
     float: left;
     text-align: center;
-    margin-top: 4%;
     color: #004569;
+    padding-bottom: 2%;
 
 }
 
@@ -56,8 +70,8 @@
 .menu ul li a {
     text-decoration: none;
     font-weight: bolder;
-    font-size: 1.8em;
-    padding: 5%;
+    font-size: 1.6em;
+    padding: 2%;
 }
 
 
