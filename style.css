@@ -1,3 +1,8 @@
+/*Letra fuente*/
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
 /*Cabecera de la pagina Home */
 
 .logoCabecera img {
@@ -5,11 +10,11 @@
     width: 40%;
 }
 
-@media screen and (min-width:992px){
-.logoCabecera-lg img {
-    margin: 2%;
-    width: 50%;
-}
+@media screen and (min-width:992px) {
+    .logoCabecera-lg img {
+        margin: 2%;
+        width: 50%;
+    }
 }
 
 .letrasCabeceraCurvas * {
@@ -30,20 +35,21 @@
 /*menu */
 
 .menu {
-   width: 100%;
+    width: 100%;
+   padding-bottom: 5%;
 }
 
 .menu ul {
-list-style-type: none;
+    list-style-type: none;
 }
 
 
 .menu li {
     float: left;
     text-align: center;
-    margin-top: 5%;
+    margin-top: 4%;
     color: #004569;
-    
+
 }
 
 
@@ -59,9 +65,66 @@ list-style-type: none;
     background-color: #96c5de;
     border-radius: 4%;
 
-  }
-  .active {
+}
+
+.active {
     color: white;
     background-color: #004569;
     border-radius: 4%;
+}
+
+
+/*Colores de fondo*/
+/*Azul #4088b0*/
+.azul_medio {
+    background-color: #4088b0;
+}
+
+/*Azul claro #A0D2EB*/
+.azul_claro {
+    background-color: #A0D2EB;
+}
+
+/*Blanco*/
+.blanco {
+    background-color: white;
+}
+
+/*Azul oscuro #004D76*/
+.azul_oscuro {
+    background-color: #004D76;
+}
+
+/*Posición letra*/
+/*Centro*/
+.centrarLetra {
+    text-align: center;
+}
+
+/*Color de la letra*/
+.colorLetraBlanco {
+    color: white;
+}
+
+/*Letra negrita*/
+.negrita {
+    font-weight: bold;
+}
+
+
+.container {
+    position: relative;
+}
+
+/* Estilo personalizado para el botón */
+.custom-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #30acec;
+    color: white;
+    height: 100px;
+    width: 450px;
+    border: none;
 }
