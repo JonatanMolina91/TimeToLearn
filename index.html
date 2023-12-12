@@ -7,22 +7,120 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Time To Leard</title>
+    <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <header class="row">
-        <div class="col-2">
-            <img src="img/logo.svg" alt="Logo de la pagina">
+    <div class="container-fluid">
+
+        <header class="row ">
+
+            <div class="col-6 order-1 col-md-6  col-lg-2">
+                <div class="logoCabecera-lg logoCabecera">
+                    <img src="img/logo.svg" alt="Logo de la pagina">
+                </div>
+            </div>
+
+            <div class=" order-3 col-12 col-md-12  col-lg-8 order-lg-2">
+                <nav class="menu">
+                    <ul>
+                        <li class="col-6 col-lg-2 "><a class="active">Home</a></li>
+                        <li class="col-6 col-lg-2"><a>Cusos</a></li>
+                        <li class="col-6 col-lg-2"><a>Videos</a></li>
+                        <li class="col-6 col-lg-2"><a>Fotos</a></li>
+                        <li class="col-12 col-lg-2"><a>Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="order-2 col-6 col-md-6 col-lg-2 order-lg-3">
+                <div class="letrasCabeceraCurvas">
+                    <img class="letrasCurvas " src="img/curvas-cabezera.svg">
+                    <img class="letrasCabecera " src="img/letras.svg">
+                </div>
+            </div>
+        </header>
+
+        <div class="row">
+            <div class="col-12 azul_medio colorLetraBlanco centrarLetra">
+                <h1 class="negrita">La educación al alcance de todos</h1>
+                <h3>Descarga nuestra aplicación para poder seguir las clases en directo desde tu movil</h3>
+            </div>
         </div>
-        <div class="col-2">
-            <ul>
-                <li>Home</li>
-            </ul>
+        <div class="row">
+            <div class="col-12 container">
+                <img src="img/moodle.png" alt="aplicación" style="width: 100%;">
+                <button class="custom-button">
+                    <h1 class="negrita">DESCARGAR</h1>
+                </button>
+            </div>
         </div>
-    </header>
+
+        <div class="row">
+            <div class="col-12 azul_claro">
+                <div class="col-10 blanco"
+                    style="display: block; margin-left: auto; margin-right: auto; margin-top: 10%; margin-bottom: 10%;">
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <iframe width="100%" height="315"
+                                src="https://www.youtube.com/embed/rZRD7EqDBOc?si=RvqBp7QqltLYNv-x"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <h3 class="negrita" style="padding-top: 10%; padding-left: 10%; padding-right: 10%;">
+                                Profesionales cualificados</h3>
+                            <p style="padding-left: 10%; padding-right: 10%; padding-bottom: 10%;">Nuestros docente
+                                tienen la mejor cualificacion para enseñar en cada materia que necesites.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="row">
+              
+                    <div class="col-6 order-1 col-md-6  col-lg-2 azul_oscuro">
+                        <div class="logoCabecera-lg logoCabecera">
+                            <img src="img/logo.svg" alt="Logo de la pagina">
+                        </div>
+                    </div>
+        
+                    <div class=" order-3 col-12 col-md-12  col-lg-8 order-lg-2 azul_oscuro">
+                        <nav class="menu">
+                            <ul class="iconos">
+                                <a href="https://www.youtube.com/" target="_blank">
+                                    <li  class="col-6 col-lg-3"><img src="img/youtube-play.svg"></li>
+                                </a>
+                                <a href="https://www.facebook.com/?locale=es_ES" target="_blank">
+                                    <li class="col-6 col-lg-2 "><img src="img/icons8-facebook (1).svg"></li>
+                                </a>
+                                <a href="https://www.instagram.com/" target="_blank">
+                                    <li class="col-6 col-lg-3 "><img src="img/instagram.svg"></li>
+                                </a>
+                                <a href="https://twitter.com/?lang=es" target="_blank">
+                                    <li class="col-6 col-lg-2 "><img src="img/twitter.svg"></li>
+                                </a>
+                            </ul>
+                        </nav>
+                    </div>
+        
+                    <div class="order-2 col-6 col-md-6 col-lg-2 order-lg-3 azul_oscuro">
+                        <div class="letrasCabeceraCurvas">
+                            <img class="letrasCabecera " src="img/letras.svg">
+                        </div>
+                    </div>
+
+                </div>
+      
+        </footer>
+    </div>
+
 </body>
 
 </html>
