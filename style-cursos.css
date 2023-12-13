@@ -1,0 +1,93 @@
+
+
+/* estilo de las cajas */
+
+.titulo-cajas {
+    text-align: center;
+    font-size: 4em;
+    font-weight: bolder;
+    margin-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.contenedor-cajas {
+    background-color: #A0D2EB;
+    padding-bottom: 3%;
+    margin-left: 0px;
+}
+
+.caja {
+    width: 70%;
+    margin-left: 15%;
+    border: 10px solid white;
+    border-top-right-radius: 80px;
+    border-top-left-radius: 80px;
+    overflow-wrap:break-word;
+    background-color: white;
+    box-shadow: 5px 5px 5px black;
+    margin-bottom: 5%;
+}
+
+.caja * {
+    margin: 5%;
+}
+.caja img {
+    width: 90%;
+    border-radius: 50px;
+    
+   
+    
+}
+
+.caja h3 {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.caja p {
+    font-size: x-large;
+    padding: 1%;
+}
+
+.caja table {
+    table-layout: fixed;
+    width: 90%;
+}
+
+.caja table * {
+    word-wrap: break-word;
+    text-align: center;
+}
+
+.tabla-cabecera {
+    text-align: center;
+    font-weight: bolder;
+}
+
+.tabla-dia {
+    font-weight: bolder;
+}
+
+
+.tabla-claro {
+    background-color: #A0D2EB;
+    color: black;
+    }
+    
+    .tabla-oscuro {
+        background-color: #004569;
+        color: white;
+    }
+
+    
+.tabla-claro-opaciti {
+    background-color: rgba(160, 210, 235, 0.5);
+    color: black;
+    }
+    
+    .tabla-oscuro-opaciti {
+        background-color: rgba(0, 69, 105, 0.5);
+        color: white;
+    }
+    
