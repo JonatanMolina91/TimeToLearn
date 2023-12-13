@@ -117,6 +117,8 @@
     font-size: 4em;
     font-weight: bolder;
     margin-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .contenedor-cajas {
@@ -209,4 +211,68 @@
     height: 100px;
     width: 450px;
     border: none;
+}
+/*Cuando se pulsa cambia de color*/
+.custom-button:active {
+    background-color: #004D76;
+}
+
+
+/*Imágenes/Vídeos*/
+.imgPortada {
+    width: 95%;
+}
+
+.videoInfo {
+    margin: 10%;
+}
+
+/*De la versión de tablet para abajo aumenta la imagen para que se vea mejor*/
+@media (max-width: 992px) {
+    .imgPortada {
+        width: 130%;
+    }
+}
+
+
+.recuadroInfo {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 10%; 
+    margin-bottom: 10%;
+}
+
+.tituloInfo {
+    padding-top: 25%; 
+    padding-left: 5%; 
+    padding-right: 10%;
+}
+
+.pInfo {
+    padding-left: 5%; 
+    padding-right: 10%; 
+    padding-bottom: 10%;
+}
+
+@media screen and (max-width:768px) {
+    .tituloInfo {
+        padding-top: 0%;
+        padding-left: 10%; 
+        padding-right: 10%;
+    }
+    .pInfo {
+        padding-left: 10%; 
+        padding-right: 10%; 
+        padding-bottom: 10%;
+    }
+}
+
+.imgIconos {
+    padding-top: 5%; 
+    width: 20%;
+}
+
+.topMas {
+    padding-top: 1%;
 }
