@@ -220,7 +220,7 @@
 
 /*Imágenes/Vídeos*/
 .imgPortada {
-    width: 95%;
+    width: 110%;
 }
 
 .videoInfo {
@@ -228,9 +228,21 @@
 }
 
 /*De la versión de tablet para abajo aumenta la imagen para que se vea mejor*/
-@media (max-width: 992px) {
+@media (max-width: 768px) {
     .imgPortada {
-        width: 130%;
+        width: 150%;
+    }
+
+    .custom-button {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #30acec;
+        color: white;
+        height: 70px;
+        width: 300px;
+        border: none;
     }
 }
 
@@ -275,4 +287,31 @@
 
 .topMas {
     padding-top: 1%;
+}
+
+.iconos {
+    padding-top: 3%;
+    text-align: center;
+}
+
+ul.iconos li img {
+    width: 3em;
+}
+
+
+.PrimerIcono {
+    margin-left: 30%;
+}
+
+@media screen and (max-width:992px) {
+    .PrimerIcono {
+        margin-left: 0%;
+    }
+}
+
+.letrasFooter {
+    margin-right: 10%;
+    margin-top: 20%;
+    width: 60%;
+    float: right;
 }
