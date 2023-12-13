@@ -1,0 +1,28 @@
+
+
+.fotos-contenedor {
+    background-color: #A0D2EB;
+    padding-bottom: 5%;
+    padding-top: 1%;
+}
+
+.fotos-contenedor div a  img {
+    width: 100%;
+    margin-top: 10%;
+    
+}
+
+.fila {
+    background-color: white;
+    margin: 10%;
+    padding: 5%;
+}
+@media screen and (min-width:768px){
+.zoom {
+    transition: transform .2s; 
+}
+ 
+.zoom:hover {
+    transform: scale(1.5); 
+}
+}
