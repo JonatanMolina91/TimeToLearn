@@ -14,7 +14,8 @@
 
 .fila {
     background-color: white;
-    margin: 10%;
+    /*He cambiado el margen de 10 a 5% para que no se vea tan separado del título*/
+    margin: 5%;
     padding: 5%;
 }
 @media screen and (min-width:768px){

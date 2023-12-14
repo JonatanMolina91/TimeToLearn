@@ -9,6 +9,15 @@
     font-weight: bold;
 }
 
+/*Letra del título de las secciones, está en general porque se usá en varios htmls*/
+.titulo-secciones {
+    text-align: center;
+    font-size: 4em;
+    font-weight: bolder;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+}
 
 /*Colores de fondo*/
 /*Azul claro #A0D2EB*/
@@ -21,11 +30,6 @@
     background-color: #004D76;
 }
 
-
-.todo {
-    padding: 0px;
-    margin: 0px;
-}
 
 /*Clase para añadir espacio por arriba*/
 .topMas {
