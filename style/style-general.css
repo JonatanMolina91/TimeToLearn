@@ -145,6 +145,7 @@ ademas le quito el float para que quede cada uno en una esquina*/
 
 .videoInfo {
     margin: 10%;
+    width: 90%;
 }
 
 .tituloInfo {
@@ -179,6 +180,32 @@ ademas le quito el float para que quede cada uno en una esquina*/
 
 
 /*Footer*/
+
+
+.fooder {
+    width: 100%;
+    padding-bottom: 5%;
+}
+
+.fooder ul {
+    list-style-type: none;
+
+}
+
+.fooder li {
+    float: left;
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.fooder ul li a {
+
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 1.6em;
+    padding: 8px;
+}
+
 .imgIconos {
     padding-top: 5%;
     width: 20%;
@@ -189,8 +216,11 @@ ademas le quito el float para que quede cada uno en una esquina*/
     text-align: center;
 }
 
-ul.iconos li img {
+
+
+ul.iconos li a  {
     width: 3em;
+
 }
 
 /*Para que los iconos queden centrados se pone en el primero de ellos un margen*/

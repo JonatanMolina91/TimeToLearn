@@ -15,11 +15,13 @@
     height: 100px;
     width: 450px;
     border: none;
+    font-size: xx-large;
 }
 
 /*Cuando se pulsa cambia de color*/
 .custom-button:active {
     background-color: #004D76;
+    
 }
 
 /*Imágenes/Vídeos*/

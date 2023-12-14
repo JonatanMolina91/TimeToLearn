@@ -27,8 +27,12 @@
     font-size: 4em;
     font-weight: bolder;
 }
-
-.formulario h3 {
+.labeles {
+    color: #3A91CB;
+    font-size: 1.7em;
+    font-weight: bolder;
+}
+.formulario label {
     color: #3A91CB;
     font-size: 1.7em;
     font-weight: bolder;
