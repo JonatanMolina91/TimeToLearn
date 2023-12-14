@@ -45,9 +45,12 @@
 .logoCabecera img {
     margin: 5%;
     width: 45%;
-    float: right;
+    float: right; /* hace que pege el logo a 
+                     las letras cuando esta enmodo table para abajo*/
 }
 
+/*hace que las letras se pege al logo
+cuando esta en modo table para abajo*/
 .letrasCabeceraCurvas * {
     float: right;
 }
@@ -63,6 +66,9 @@
     width: 20%;
 }
 
+/* ajusta el tamaño y los margenes de lso logos de la cabecera
+cuando pasa a modo escritorio
+ademas le quito el float para que quede cada uno en una esquina*/
 @media screen and (min-width:992px) {
     .logoCabecera-lg img {
         margin: 2%;
@@ -109,6 +115,7 @@
     padding: 10px;
 }
 
+/* esta clase se pone al enlace de la pagina actual*/
 .menu li a:hover:not(.active) {
     background-color: #96c5de;
     border-radius: 4%;

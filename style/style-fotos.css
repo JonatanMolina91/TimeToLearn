@@ -1,5 +1,5 @@
 
-
+/* estilo de la página fotos */
 .fotos-contenedor {
     background-color: #A0D2EB;
     padding-bottom: 5%;
@@ -9,15 +9,20 @@
 .fotos-contenedor div a  img {
     width: 100%;
     margin-top: 10%;
+    height: 90%;
     
 }
 
 .fila {
     background-color: white;
-    /*He cambiado el margen de 10 a 5% para que no se vea tan separado del título*/
+    /*Andrea: He cambiado el margen de 10 a 5% para que no se vea tan separado del título
+    Jonatan: Muy mal por tocar mi codigo -.-*/
     margin: 5%;
     padding: 5%;
 }
+
+/* para cuando pase a modo table para arriba
+le he agregado zoom a las fotos */
 @media screen and (min-width:768px){
 .zoom {
     transition: transform .2s; 

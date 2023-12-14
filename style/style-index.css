@@ -56,9 +56,9 @@
     margin-left: 1%;
     border: 10px solid white;
     border-radius: 80px;
-    overflow-wrap: break-word;
+    overflow-wrap: break-word; /*para que no sobresalga el texto de la caja al redimensionar*/
     background-color: white;
-    box-shadow: 5px 5px 5px black;
+    box-shadow: 5px 5px 5px black; /*sombras para las cajas*/
     margin-bottom: 5%;
 }
 

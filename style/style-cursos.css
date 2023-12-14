@@ -50,13 +50,15 @@
     padding: 1%;
 }
 
+
+/* estilo de la tabla horarios*/
 .caja table {
     table-layout: fixed;
     width: 90%;
 }
 
 .caja table * {
-    word-wrap: break-word;
+    word-wrap: break-word; /* para que las letras no sobre salga al redimensionar la web*/
     text-align: center;
 }
 

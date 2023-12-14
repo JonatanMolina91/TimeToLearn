@@ -3,8 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style-general.css">
-    <link rel="stylesheet" href="style-cursos.css">
+    <link rel="stylesheet" href="style/style-general.css">
+    <link rel="stylesheet" href="style/style-cursos.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
@@ -16,16 +16,18 @@
 
 <body>
 
-    <header class="container-fluid"> <!--Sigue haciendo falta si ya está el container-fluid de arriba?-->
+    <!-- cabecera de la pagina -->
+    <header class="container-fluid">
 
         <div class="row">
-
+            <!-- logo -->
             <div class="col-6 order-1 col-md-6  col-lg-2">
                 <div class="logoCabecera-lg logoCabecera ">
                     <img src="img/logo.svg" alt="Logo de la pagina">
                 </div>
             </div>
 
+            <!-- menu de la pagina -->
             <div class=" order-3 col-12 col-md-12  col-lg-8 order-lg-2">
                 <nav class="menu menu-lg">
                     <ul>
@@ -39,373 +41,381 @@
                 </nav>
             </div>
 
+            <!-- letras logo -->
             <div class="order-2 col-6 col-md-6 col-lg-2 order-lg-3">
                 <div class="letrasCabeceraCurvas">
-                    <img class="letrasCurvas " src="img/curvas-cabezera.svg">
-                    <img class="letrasCabecera letrasCabecera-lg" src="img/letras.svg">
+                    <img alt="Time to learn" class="letrasCurvas " src="img/curvas-cabezera.svg">
+                    <img alt="curva logo" class="letrasCabecera letrasCabecera-lg" src="img/letras.svg">
                 </div>
             </div>
         </div>
     </header>
 
+    <!-- seccion de los cursos -->
+    <section>
+        <div class="contenedor-cajas container-fluid">
 
-    <div class="contenedor-cajas container-fluid">
+             <!-- la caja -->
+            <div class="row">
+                <h1 class="col-12 titulo-cajas">Cursos disponibles</h1>
+                <div class="col-12 col-md-12 col-lg-6">
+                    <div class="caja">
+                        <img alt="curso ingles" src="img/cursos/curso-ingles.jpg">
+                        <h3>Curso Ingles A1</h3>  <!-- titulo de la caja-->
+                        <p>Clase totalmente gratuita de ingles basico,
+                            rellena el formulario de contactos para mas información.
+                        </p><!-- descripción-->
+                        <table> <!-- tabla con los horarios-->
 
-        <div class="row">
-            <h1 class="col-12 titulo-cajas">Cursos disponibles</h1>
-            <div class="col-12 col-md-12 col-lg-6">
-                <div class="caja">
-                    <img src="img/curso1.jpg">
-                    <h3>Curso Ingles A1</h3>
-                    <p>Aprende con andrea el presente simple y los colores
-                    </p>
-                    <table>
+                            <tr class="tabla-cabecera">
+                                <td></td>
+                                <td colspan="2">Por la mañana</td>
+                                <td colspan="2">Por la tarde</td>
+                            </tr>
 
-                        <tr class="tabla-cabecera">
-                            <td></td>
-                            <td colspan="2">Por la mañana</td>
-                            <td colspan="2">Por la tarde</td>
-                        </tr>
+                            <tr>
+                                <td class="tabla-dia tabla-claro">L</td>
+                                <td class="tabla-claro">08:00</td>
+                                <td class="tabla-claro">13:00</td>
+                                <td class="tabla-claro-opaciti">17:00</td>
+                                <td class="tabla-claro-opaciti">20:00</td>
 
-                        <tr>
-                            <td class="tabla-dia tabla-claro">L</td>
-                            <td class="tabla-claro">08:00</td>
-                            <td class="tabla-claro">13:00</td>
-                            <td class="tabla-claro-opaciti">17:00</td>
-                            <td class="tabla-claro-opaciti">20:00</td>
+                            </tr>
 
-                        </tr>
+                            <tr>
+                                <td class="tabla-dia tabla-oscuro">M</td>
+                                <td class="tabla-oscuro">08:00</td>
+                                <td class="tabla-oscuro">13:00</td>
+                                <td class="tabla-oscuro-opaciti">17:00</td>
+                                <td class="tabla-oscuro-opaciti">20:00</td>
+                            </tr>
 
-                        <tr>
-                            <td class="tabla-dia tabla-oscuro">M</td>
-                            <td class="tabla-oscuro">08:00</td>
-                            <td class="tabla-oscuro">13:00</td>
-                            <td class="tabla-oscuro-opaciti">17:00</td>
-                            <td class="tabla-oscuro-opaciti">20:00</td>
-                        </tr>
+                            <tr>
+                                <td class="tabla-dia tabla-claro">X</td>
+                                <td class="tabla-claro">08:00</td>
+                                <td class="tabla-claro">13:00</td>
+                                <td class="tabla-claro-opaciti">17:00</td>
+                                <td class="tabla-claro-opaciti">20:00</td>
 
-                        <tr>
-                            <td class="tabla-dia tabla-claro">X</td>
-                            <td class="tabla-claro">08:00</td>
-                            <td class="tabla-claro">13:00</td>
-                            <td class="tabla-claro-opaciti">17:00</td>
-                            <td class="tabla-claro-opaciti">20:00</td>
+                            </tr>
 
-                        </tr>
+                            <tr>
+                                <td class="tabla-dia tabla-oscuro">J</td>
+                                <td class="tabla-oscuro">08:00</td>
+                                <td class="tabla-oscuro">13:00</td>
+                                <td class="tabla-oscuro-opaciti">17:00</td>
+                                <td class="tabla-oscuro-opaciti">20:00</td>
+                            </tr>
 
-                        <tr>
-                            <td class="tabla-dia tabla-oscuro">J</td>
-                            <td class="tabla-oscuro">08:00</td>
-                            <td class="tabla-oscuro">13:00</td>
-                            <td class="tabla-oscuro-opaciti">17:00</td>
-                            <td class="tabla-oscuro-opaciti">20:00</td>
-                        </tr>
+                            <tr>
+                                <td class="tabla-dia tabla-claro">V</td>
+                                <td class="tabla-claro">08:00</td>
+                                <td class="tabla-claro">13:00</td>
+                                <td class="tabla-claro-opaciti">17:00</td>
+                                <td class="tabla-claro-opaciti">20:00</td>
+                            </tr>
 
-                        <tr>
-                            <td class="tabla-dia tabla-claro">V</td>
-                            <td class="tabla-claro">08:00</td>
-                            <td class="tabla-claro">13:00</td>
-                            <td class="tabla-claro-opaciti">17:00</td>
-                            <td class="tabla-claro-opaciti">20:00</td>
-                        </tr>
-
-                    </table>
+                        </table>
+                    </div>
                 </div>
-            </div>
 
-            <div class="col-12 col-md-12 col-lg-6">
-                <div class="caja">
-                    <img src="img/curso1.jpg">
-                    <h3>Curso Ingles A1</h3>
-                    <p>Aprende con andrea el presente simple y los colores
-                    </p>
-                    <table>
+                <div class="col-12 col-md-12 col-lg-6">
+                    <div class="caja">
+                        <img alt="curso camarero" src="img/cursos/curso-camarero.png">
+                        <h3>Curso de Camarero</h3>
+                        <p>Curso basico de camarero, teorico y practico.
+                            Aprenderas desde hacer cafes con una cafetera.
+                        </p>
+                        <table>
 
-                        <tr class="tabla-cabecera">
-                            <td></td>
-                            <td colspan="2">Por la mañana</td>
-                            <td colspan="2">Por la tarde</td>
-                        </tr>
+                            <tr class="tabla-cabecera">
+                                <td></td>
+                                <td colspan="2">Por la mañana</td>
+                                <td colspan="2">Por la tarde</td>
+                            </tr>
 
-                        <tr>
-                            <td class="tabla-dia tabla-claro">L</td>
-                            <td class="tabla-claro">08:00</td>
-                            <td class="tabla-claro">13:00</td>
-                            <td class="tabla-claro-opaciti">17:00</td>
-                            <td class="tabla-claro-opaciti">20:00</td>
-                        </tr>
+                            <tr>
+                                <td class="tabla-dia tabla-claro">L</td>
+                                <td class="tabla-claro">08:00</td>
+                                <td class="tabla-claro">13:00</td>
+                                <td class="tabla-claro-opaciti">17:00</td>
+                                <td class="tabla-claro-opaciti">20:00</td>
+                            </tr>
 
-                        <tr>
-                            <td class="tabla-dia tabla-oscuro">M</td>
-                            <td class="tabla-oscuro">08:00</td>
-                            <td class="tabla-oscuro">13:00</td>
-                            <td class="tabla-oscuro-opaciti">17:00</td>
-                            <td class="tabla-oscuro-opaciti">20:00</td>
-                        </tr>
+                            <tr>
+                                <td class="tabla-dia tabla-oscuro">M</td>
+                                <td class="tabla-oscuro">08:00</td>
+                                <td class="tabla-oscuro">13:00</td>
+                                <td class="tabla-oscuro-opaciti">17:00</td>
+                                <td class="tabla-oscuro-opaciti">20:00</td>
+                            </tr>
 
-                        <tr>
-                            <td class="tabla-dia tabla-claro">X</td>
-                            <td class="tabla-claro">08:00</td>
-                            <td class="tabla-claro">13:00</td>
-                            <td class="tabla-claro-opaciti">17:00</td>
-                            <td class="tabla-claro-opaciti">20:00</td>
-                        </tr>
+                            <tr>
+                                <td class="tabla-dia tabla-claro">X</td>
+                                <td class="tabla-claro">08:00</td>
+                                <td class="tabla-claro">13:00</td>
+                                <td class="tabla-claro-opaciti">17:00</td>
+                                <td class="tabla-claro-opaciti">20:00</td>
+                            </tr>
 
-                        <tr>
-                            <td class="tabla-dia tabla-oscuro">J</td>
-                            <td class="tabla-oscuro">08:00</td>
-                            <td class="tabla-oscuro">13:00</td>
-                            <td class="tabla-oscuro-opaciti">17:00</td>
-                            <td class="tabla-oscuro-opaciti">20:00</td>
-                        </tr>
+                            <tr>
+                                <td class="tabla-dia tabla-oscuro">J</td>
+                                <td class="tabla-oscuro">08:00</td>
+                                <td class="tabla-oscuro">13:00</td>
+                                <td class="tabla-oscuro-opaciti">17:00</td>
+                                <td class="tabla-oscuro-opaciti">20:00</td>
+                            </tr>
 
-                        <tr>
-                            <td class="tabla-dia tabla-claro">V</td>
-                            <td class="tabla-claro">08:00</td>
-                            <td class="tabla-claro">13:00</td>
-                            <td class="tabla-claro-opaciti">17:00</td>
-                            <td class="tabla-claro-opaciti">20:00</td>
-                        </tr>
+                            <tr>
+                                <td class="tabla-dia tabla-claro">V</td>
+                                <td class="tabla-claro">08:00</td>
+                                <td class="tabla-claro">13:00</td>
+                                <td class="tabla-claro-opaciti">17:00</td>
+                                <td class="tabla-claro-opaciti">20:00</td>
+                            </tr>
 
-                    </table>
+                        </table>
+                    </div>
                 </div>
-            </div>
 
-            <div class="col-12 col-md-12 col-lg-6">
-                <div class="caja">
-                    <img src="img/curso1.jpg">
-                    <h3>Curso Ingles A1</h3>
-                    <p>Aprende con andrea el presente simple y los colores
-                    </p>
-                    <table>
+                <div class="col-12 col-md-12 col-lg-6">
+                    <div class="caja">
+                        <img alt="curso jardineria" src="img/cursos/curso-jardineria.png">
+                        <h3>Curso de jardineria</h3>
+                        <p>Aprende a podar arboles y flores plantas.
+                            Te enseñaremos que plantar segun la estación.
+                        </p>
+                        <table>
 
-                        <tr class="tabla-cabecera">
-                            <td></td>
-                            <td colspan="2">Por la mañana</td>
-                            <td colspan="2">Por la tarde</td>
-                        </tr>
+                            <tr class="tabla-cabecera">
+                                <td></td>
+                                <td colspan="2">Por la mañana</td>
+                                <td colspan="2">Por la tarde</td>
+                            </tr>
 
-                        <tr>
-                            <td class="tabla-dia tabla-claro">L</td>
-                            <td class="tabla-claro">08:00</td>
-                            <td class="tabla-claro">13:00</td>
-                            <td class="tabla-claro-opaciti">17:00</td>
-                            <td class="tabla-claro-opaciti">20:00</td>
-                        </tr>
+                            <tr>
+                                <td class="tabla-dia tabla-claro">L</td>
+                                <td class="tabla-claro">08:00</td>
+                                <td class="tabla-claro">13:00</td>
+                                <td class="tabla-claro-opaciti">17:00</td>
+                                <td class="tabla-claro-opaciti">20:00</td>
+                            </tr>
 
-                        <tr>
-                            <td class="tabla-dia tabla-oscuro">M</td>
-                            <td class="tabla-oscuro">08:00</td>
-                            <td class="tabla-oscuro">13:00</td>
-                            <td class="tabla-oscuro-opaciti">17:00</td>
-                            <td class="tabla-oscuro-opaciti">20:00</td>
-                        </tr>
+                            <tr>
+                                <td class="tabla-dia tabla-oscuro">M</td>
+                                <td class="tabla-oscuro">08:00</td>
+                                <td class="tabla-oscuro">13:00</td>
+                                <td class="tabla-oscuro-opaciti">17:00</td>
+                                <td class="tabla-oscuro-opaciti">20:00</td>
+                            </tr>
 
-                        <tr>
-                            <td class="tabla-dia tabla-claro">X</td>
-                            <td class="tabla-claro">08:00</td>
-                            <td class="tabla-claro">13:00</td>
-                            <td class="tabla-claro-opaciti">17:00</td>
-                            <td class="tabla-claro-opaciti">20:00</td>
-                        </tr>
+                            <tr>
+                                <td class="tabla-dia tabla-claro">X</td>
+                                <td class="tabla-claro">08:00</td>
+                                <td class="tabla-claro">13:00</td>
+                                <td class="tabla-claro-opaciti">17:00</td>
+                                <td class="tabla-claro-opaciti">20:00</td>
+                            </tr>
 
-                        <tr>
-                            <td class="tabla-dia tabla-oscuro">J</td>
-                            <td class="tabla-oscuro">08:00</td>
-                            <td class="tabla-oscuro">13:00</td>
-                            <td class="tabla-oscuro-opaciti">17:00</td>
-                            <td class="tabla-oscuro-opaciti">20:00</td>
-                        </tr>
+                            <tr>
+                                <td class="tabla-dia tabla-oscuro">J</td>
+                                <td class="tabla-oscuro">08:00</td>
+                                <td class="tabla-oscuro">13:00</td>
+                                <td class="tabla-oscuro-opaciti">17:00</td>
+                                <td class="tabla-oscuro-opaciti">20:00</td>
+                            </tr>
 
-                        <tr>
-                            <td class="tabla-dia tabla-claro">V</td>
-                            <td class="tabla-claro">08:00</td>
-                            <td class="tabla-claro">13:00</td>
-                            <td class="tabla-claro-opaciti">17:00</td>
-                            <td class="tabla-claro-opaciti">20:00</td>
-                        </tr>
+                            <tr>
+                                <td class="tabla-dia tabla-claro">V</td>
+                                <td class="tabla-claro">08:00</td>
+                                <td class="tabla-claro">13:00</td>
+                                <td class="tabla-claro-opaciti">17:00</td>
+                                <td class="tabla-claro-opaciti">20:00</td>
+                            </tr>
 
-                    </table>
+                        </table>
+                    </div>
                 </div>
-            </div>
 
-            <div class="col-12 col-md-12 col-lg-6">
-                <div class="caja">
-                    <img src="img/curso1.jpg">
-                    <h3>Curso Ingles A1</h3>
-                    <p>Aprende con andrea el presente simple y los colores
-                    </p>
-                    <table>
+                <div class="col-12 col-md-12 col-lg-6">
+                    <div class="caja">
+                        <img alt="curso carretillero" src="img/cursos/curso-carretillero.png">
+                        <h3>Curso de carretillero</h3>
+                        <p>Te enseñamos el funcionamiento de la carretilla,
+                            para que trabajes en ámazon o en un almacen.
+                        </p>
+                        <table>
 
-                        <tr class="tabla-cabecera">
-                            <td></td>
-                            <td colspan="2">Por la mañana</td>
-                            <td colspan="2">Por la tarde</td>
-                        </tr>
+                            <tr class="tabla-cabecera">
+                                <td></td>
+                                <td colspan="2">Por la mañana</td>
+                                <td colspan="2">Por la tarde</td>
+                            </tr>
 
-                        <tr>
-                            <td class="tabla-dia tabla-claro">L</td>
-                            <td class="tabla-claro">08:00</td>
-                            <td class="tabla-claro">13:00</td>
-                            <td class="tabla-claro-opaciti">17:00</td>
-                            <td class="tabla-claro-opaciti">20:00</td>
-                        </tr>
+                            <tr>
+                                <td class="tabla-dia tabla-claro">L</td>
+                                <td class="tabla-claro">08:00</td>
+                                <td class="tabla-claro">13:00</td>
+                                <td class="tabla-claro-opaciti">17:00</td>
+                                <td class="tabla-claro-opaciti">20:00</td>
+                            </tr>
 
-                        <tr>
-                            <td class="tabla-dia tabla-oscuro">M</td>
-                            <td class="tabla-oscuro">08:00</td>
-                            <td class="tabla-oscuro">13:00</td>
-                            <td class="tabla-oscuro-opaciti">17:00</td>
-                            <td class="tabla-oscuro-opaciti">20:00</td>
-                        </tr>
+                            <tr>
+                                <td class="tabla-dia tabla-oscuro">M</td>
+                                <td class="tabla-oscuro">08:00</td>
+                                <td class="tabla-oscuro">13:00</td>
+                                <td class="tabla-oscuro-opaciti">17:00</td>
+                                <td class="tabla-oscuro-opaciti">20:00</td>
+                            </tr>
 
-                        <tr>
-                            <td class="tabla-dia tabla-claro">X</td>
-                            <td class="tabla-claro">08:00</td>
-                            <td class="tabla-claro">13:00</td>
-                            <td class="tabla-claro-opaciti">17:00</td>
-                            <td class="tabla-claro-opaciti">20:00</td>
-                        </tr>
+                            <tr>
+                                <td class="tabla-dia tabla-claro">X</td>
+                                <td class="tabla-claro">08:00</td>
+                                <td class="tabla-claro">13:00</td>
+                                <td class="tabla-claro-opaciti">17:00</td>
+                                <td class="tabla-claro-opaciti">20:00</td>
+                            </tr>
 
-                        <tr>
-                            <td class="tabla-dia tabla-oscuro">J</td>
-                            <td class="tabla-oscuro">08:00</td>
-                            <td class="tabla-oscuro">13:00</td>
-                            <td class="tabla-oscuro-opaciti">17:00</td>
-                            <td class="tabla-oscuro-opaciti">20:00</td>
-                        </tr>
+                            <tr>
+                                <td class="tabla-dia tabla-oscuro">J</td>
+                                <td class="tabla-oscuro">08:00</td>
+                                <td class="tabla-oscuro">13:00</td>
+                                <td class="tabla-oscuro-opaciti">17:00</td>
+                                <td class="tabla-oscuro-opaciti">20:00</td>
+                            </tr>
 
-                        <tr>
-                            <td class="tabla-dia tabla-claro">V</td>
-                            <td class="tabla-claro">08:00</td>
-                            <td class="tabla-claro">13:00</td>
-                            <td class="tabla-claro-opaciti">17:00</td>
-                            <td class="tabla-claro-opaciti">20:00</td>
-                        </tr>
+                            <tr>
+                                <td class="tabla-dia tabla-claro">V</td>
+                                <td class="tabla-claro">08:00</td>
+                                <td class="tabla-claro">13:00</td>
+                                <td class="tabla-claro-opaciti">17:00</td>
+                                <td class="tabla-claro-opaciti">20:00</td>
+                            </tr>
 
-                    </table>
+                        </table>
+                    </div>
                 </div>
-            </div>
 
-            <div class="col-12 col-md-12 col-lg-6">
-                <div class="caja">
-                    <img src="img/curso1.jpg">
-                    <h3>Curso Ingles A1</h3>
-                    <p>Aprende con andrea el presente simple y los colores
-                    </p>
-                    <table>
+                <div class="col-12 col-md-12 col-lg-6">
+                    <div class="caja">
+                        <img alt="curso excel" src="img/cursos/curso-excel.png">
+                        <h3>Curso de Excel básico</h3>
+                        <p>Aprende lo básico de excel para labores administrativas.
+                        </p>
+                        <table>
 
-                        <tr class="tabla-cabecera">
-                            <td></td>
-                            <td colspan="2">Por la mañana</td>
-                            <td colspan="2">Por la tarde</td>
-                        </tr>
+                            <tr class="tabla-cabecera">
+                                <td></td>
+                                <td colspan="2">Por la mañana</td>
+                                <td colspan="2">Por la tarde</td>
+                            </tr>
 
-                        <tr>
-                            <td class="tabla-dia tabla-claro">L</td>
-                            <td class="tabla-claro">08:00</td>
-                            <td class="tabla-claro">13:00</td>
-                            <td class="tabla-claro-opaciti">17:00</td>
-                            <td class="tabla-claro-opaciti">20:00</td>
-                        </tr>
+                            <tr>
+                                <td class="tabla-dia tabla-claro">L</td>
+                                <td class="tabla-claro">08:00</td>
+                                <td class="tabla-claro">13:00</td>
+                                <td class="tabla-claro-opaciti">17:00</td>
+                                <td class="tabla-claro-opaciti">20:00</td>
+                            </tr>
 
-                        <tr>
-                            <td class="tabla-dia tabla-oscuro">M</td>
-                            <td class="tabla-oscuro">08:00</td>
-                            <td class="tabla-oscuro">13:00</td>
-                            <td class="tabla-oscuro-opaciti">17:00</td>
-                            <td class="tabla-oscuro-opaciti">20:00</td>
-                        </tr>
+                            <tr>
+                                <td class="tabla-dia tabla-oscuro">M</td>
+                                <td class="tabla-oscuro">08:00</td>
+                                <td class="tabla-oscuro">13:00</td>
+                                <td class="tabla-oscuro-opaciti">17:00</td>
+                                <td class="tabla-oscuro-opaciti">20:00</td>
+                            </tr>
 
-                        <tr>
-                            <td class="tabla-dia tabla-claro">X</td>
-                            <td class="tabla-claro">08:00</td>
-                            <td class="tabla-claro">13:00</td>
-                            <td class="tabla-claro-opaciti">17:00</td>
-                            <td class="tabla-claro-opaciti">20:00</td>
-                        </tr>
+                            <tr>
+                                <td class="tabla-dia tabla-claro">X</td>
+                                <td class="tabla-claro">08:00</td>
+                                <td class="tabla-claro">13:00</td>
+                                <td class="tabla-claro-opaciti">17:00</td>
+                                <td class="tabla-claro-opaciti">20:00</td>
+                            </tr>
 
-                        <tr>
-                            <td class="tabla-dia tabla-oscuro">J</td>
-                            <td class="tabla-oscuro">08:00</td>
-                            <td class="tabla-oscuro">13:00</td>
-                            <td class="tabla-oscuro-opaciti">17:00</td>
-                            <td class="tabla-oscuro-opaciti">20:00</td>
-                        </tr>
+                            <tr>
+                                <td class="tabla-dia tabla-oscuro">J</td>
+                                <td class="tabla-oscuro">08:00</td>
+                                <td class="tabla-oscuro">13:00</td>
+                                <td class="tabla-oscuro-opaciti">17:00</td>
+                                <td class="tabla-oscuro-opaciti">20:00</td>
+                            </tr>
 
-                        <tr>
-                            <td class="tabla-dia tabla-claro">V</td>
-                            <td class="tabla-claro">08:00</td>
-                            <td class="tabla-claro">13:00</td>
-                            <td class="tabla-claro-opaciti">17:00</td>
-                            <td class="tabla-claro-opaciti">20:00</td>
-                        </tr>
+                            <tr>
+                                <td class="tabla-dia tabla-claro">V</td>
+                                <td class="tabla-claro">08:00</td>
+                                <td class="tabla-claro">13:00</td>
+                                <td class="tabla-claro-opaciti">17:00</td>
+                                <td class="tabla-claro-opaciti">20:00</td>
+                            </tr>
 
-                    </table>
+                        </table>
+                    </div>
                 </div>
-            </div>
 
-            <div class="col-12 col-md-12 col-lg-6">
-                <div class="caja">
-                    <img src="img/curso1.jpg">
-                    <h3>Curso Ingles A1</h3>
-                    <p>Aprende con andrea el presente simple y los colores
-                    </p>
-                    <table>
+                <div class="col-12 col-md-12 col-lg-6">
+                    <div class="caja">
+                        <img alt="curso frances" src="img/cursos/curso-frances.png">
+                        <h3>Curso Frances A1</h3>
+                        <p>Aprende Frances con nuestra aplicación, es totalmente gratis.
+                        </p>
+                        <table>
 
-                        <tr class="tabla-cabecera">
-                            <td></td>
-                            <td colspan="2">Por la mañana</td>
-                            <td colspan="2">Por la tarde</td>
-                        </tr>
+                            <tr class="tabla-cabecera">
+                                <td></td>
+                                <td colspan="2">Por la mañana</td>
+                                <td colspan="2">Por la tarde</td>
+                            </tr>
 
-                        <tr>
-                            <td class="tabla-dia tabla-claro">L</td>
-                            <td class="tabla-claro">08:00</td>
-                            <td class="tabla-claro">13:00</td>
-                            <td class="tabla-claro-opaciti">17:00</td>
-                            <td class="tabla-claro-opaciti">20:00</td>
-                        </tr>
+                            <tr>
+                                <td class="tabla-dia tabla-claro">L</td>
+                                <td class="tabla-claro">08:00</td>
+                                <td class="tabla-claro">13:00</td>
+                                <td class="tabla-claro-opaciti">17:00</td>
+                                <td class="tabla-claro-opaciti">20:00</td>
+                            </tr>
 
-                        <tr>
-                            <td class="tabla-dia tabla-oscuro">M</td>
-                            <td class="tabla-oscuro">08:00</td>
-                            <td class="tabla-oscuro">13:00</td>
-                            <td class="tabla-oscuro-opaciti">17:00</td>
-                            <td class="tabla-oscuro-opaciti">20:00</td>
-                        </tr>
+                            <tr>
+                                <td class="tabla-dia tabla-oscuro">M</td>
+                                <td class="tabla-oscuro">08:00</td>
+                                <td class="tabla-oscuro">13:00</td>
+                                <td class="tabla-oscuro-opaciti">17:00</td>
+                                <td class="tabla-oscuro-opaciti">20:00</td>
+                            </tr>
 
-                        <tr>
-                            <td class="tabla-dia tabla-claro">X</td>
-                            <td class="tabla-claro">08:00</td>
-                            <td class="tabla-claro">13:00</td>
-                            <td class="tabla-claro-opaciti">17:00</td>
-                            <td class="tabla-claro-opaciti">20:00</td>
-                        </tr>
+                            <tr>
+                                <td class="tabla-dia tabla-claro">X</td>
+                                <td class="tabla-claro">08:00</td>
+                                <td class="tabla-claro">13:00</td>
+                                <td class="tabla-claro-opaciti">17:00</td>
+                                <td class="tabla-claro-opaciti">20:00</td>
+                            </tr>
 
-                        <tr>
-                            <td class="tabla-dia tabla-oscuro">J</td>
-                            <td class="tabla-oscuro">08:00</td>
-                            <td class="tabla-oscuro">13:00</td>
-                            <td class="tabla-oscuro-opaciti">17:00</td>
-                            <td class="tabla-oscuro-opaciti">20:00</td>
-                        </tr>
+                            <tr>
+                                <td class="tabla-dia tabla-oscuro">J</td>
+                                <td class="tabla-oscuro">08:00</td>
+                                <td class="tabla-oscuro">13:00</td>
+                                <td class="tabla-oscuro-opaciti">17:00</td>
+                                <td class="tabla-oscuro-opaciti">20:00</td>
+                            </tr>
 
-                        <tr>
-                            <td class="tabla-dia tabla-claro">V</td>
-                            <td class="tabla-claro">08:00</td>
-                            <td class="tabla-claro">13:00</td>
-                            <td class="tabla-claro-opaciti">17:00</td>
-                            <td class="tabla-claro-opaciti">20:00</td>
-                        </tr>
+                            <tr>
+                                <td class="tabla-dia tabla-claro">V</td>
+                                <td class="tabla-claro">08:00</td>
+                                <td class="tabla-claro">13:00</td>
+                                <td class="tabla-claro-opaciti">17:00</td>
+                                <td class="tabla-claro-opaciti">20:00</td>
+                            </tr>
 
-                    </table>
+                        </table>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
-
+    <!-- fooder -->
     <footer class="container-fluid">
         <div class="row">
             <div class="col-6 order-1 col-md-6  col-lg-2 azul_oscuro topMas">
