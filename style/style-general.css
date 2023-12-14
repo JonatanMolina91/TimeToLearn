@@ -112,7 +112,7 @@ ademas le quito el float para que quede cada uno en una esquina*/
     text-decoration: none;
     font-weight: bolder;
     font-size: 1.6em;
-    padding: 10px;
+    padding: 8px;
 }
 
 /* esta clase se pone al enlace de la pagina actual*/
