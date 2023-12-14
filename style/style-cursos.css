@@ -27,6 +27,7 @@
     background-color: white;
     box-shadow: 5px 5px 5px black;
     margin-bottom: 5%;
+    height: 97%;
 }
 
 .caja * {
@@ -48,6 +49,7 @@
 .caja p {
     font-size: x-large;
     padding: 1%;
+   
 }
 
 
