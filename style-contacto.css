@@ -1,0 +1,107 @@
+/*Recuadro blanco que contiene el formulario*/
+.recuadroContacto {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 3%;
+    padding-right: 10%;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+
+/*Margen de todos los inputs*/
+.divInput {
+    margin-bottom: 2.5%;
+}
+
+
+/*Formato elementos formulario*/
+/*Letras del formulario*/
+.formulario h1 {
+    color: #3A91CB;
+    font-size: 4em;
+    font-weight: bolder;
+}
+
+.formulario h3 {
+    color: #3A91CB;
+    font-size: 1.7em;
+    font-weight: bolder;
+}
+
+/*Letra del radioButton*/
+.letraRadio {
+    color: #3A91CB;
+    font-size: 24px;
+}
+
+/*Letra del label del checkBox*/
+.form-check-label {
+    font-size: 27px;
+    color: #3A91CB;
+}
+
+
+/*Inputs*/
+/*Text*/
+.recuadros_input {
+    width: 90%;
+    height: 50px;
+    font-size: 24px;
+    border-color: #156BB9;
+    border-width: 5px;
+}
+
+/*Texarea*/
+.mensaje_input {
+    width: 90%;
+    height: 230px;
+    font-size: 24px;
+    border-color: #156BB9;
+    border-width: 5px;
+}
+
+/*File*/
+/* Oculta el input original */
+.input-file-container input[type="file"] {
+    display: none;
+}
+
+/* Estilo para el botón de subir archivo personalizado */
+.input-file-container .custom-file-input {
+    background-color: #ffffff;
+    color: #679FC4;
+    border: 1px solid #156BB9;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 27px;
+}
+
+/* Cambia el color del botón de subir archivo al pasar el mouse sobre él */
+.input-file-container .custom-file-input:hover {
+    background-color: #0a5494;
+    color: rgb(255, 255, 255);
+}
+
+/*Cuadrados checkbox*/
+.form-check-inline .form-check-input {
+    margin-top: 12px;
+    /* Corrige el espaciado superior */
+    margin-right: 0.3em;
+    /* Agrega un pequeño espacio entre el checkbox y la etiqueta */
+}
+
+/*Botón enviar*/
+.buttonEnviar {
+    background-color: #156BB9;
+    height: 50px;
+    width: 120px;
+    color: rgb(255, 255, 255);
+    border-style: hidden;
+    font-size: 30px;
+}

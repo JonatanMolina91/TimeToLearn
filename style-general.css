@@ -1,0 +1,202 @@
+/*Opciones de letra*/
+/*Fuente*/
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Negrita*/
+.negrita {
+    font-weight: bold;
+}
+
+
+/*Colores de fondo*/
+/*Azul claro #A0D2EB*/
+.azul_claro {
+    background-color: #A0D2EB;
+}
+
+/*Azul oscuro #004D76*/
+.azul_oscuro {
+    background-color: #004D76;
+}
+
+
+.todo {
+    padding: 0px;
+    margin: 0px;
+}
+
+/*Clase para añadir espacio por arriba*/
+.topMas {
+    padding-top: 1%;
+}
+
+
+/*Cabecera de la pagina Home */
+.logoCabecera {
+    width: 100%;
+}
+
+.logoCabecera img {
+    margin: 5%;
+    width: 45%;
+    float: right;
+}
+
+.letrasCabeceraCurvas * {
+    float: right;
+}
+
+.letrasCabecera {
+    margin-right: 0%;
+    margin-top: 20%;
+    width: 45%;
+    float: left;
+}
+
+.letrasCurvas {
+    width: 20%;
+}
+
+@media screen and (min-width:992px) {
+    .logoCabecera-lg img {
+        margin: 2%;
+        width: 50%;
+        float: none;
+    }
+
+    .letrasCabecera-lg {
+        margin-right: 0%;
+        margin-top: 15%;
+        width: 65%;
+        float: none;
+    }
+
+    .menu-lg {
+        margin-top: 5%;
+    }
+}
+
+
+/*menu */
+
+.menu {
+    width: 100%;
+    padding-bottom: 5%;
+}
+
+.menu ul {
+    list-style-type: none;
+
+}
+
+.menu li {
+    float: left;
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.menu ul li a {
+
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 1.6em;
+    padding: 10px;
+}
+
+.menu li a:hover:not(.active) {
+    background-color: #96c5de;
+    border-radius: 4%;
+}
+
+.no-active {
+    color: #004569;
+}
+
+.active {
+    background-color: #004569;
+    border-radius: 4%;
+    color: white;
+}
+
+
+/*Sección info de la empresa (se aplica en el index y en la de videos)*/
+.recuadroInfo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    box-shadow: 5px 5px 5px black;
+    background-color: white;
+}
+
+.videoInfo {
+    margin: 10%;
+}
+
+.tituloInfo {
+    padding-top: 10%;
+    padding-right: 10%;
+    padding-bottom: 3%;
+}
+
+.pInfo {
+    padding-right: 10%;
+    padding-bottom: 10%;
+}
+
+/*En la versión de móvil no tendrá espacio por arriba pues ya lo proporciona el vídeo y se pone espacio a la izquierda*/
+@media screen and (max-width:768px) {
+    .tituloInfo {
+        padding-top: 0%;
+        padding-left: 10%;
+    }
+
+    .pInfo {
+        padding-left: 10%;
+    }
+}
+
+/*En la versión de escritorio el texto se queda centrado*/
+@media (min-width:992px) {
+    .tituloInfo {
+        padding-top: 17%;
+    }
+}
+
+
+/*Footer*/
+.imgIconos {
+    padding-top: 5%;
+    width: 20%;
+}
+
+.iconos {
+    padding-top: 3%;
+    text-align: center;
+}
+
+ul.iconos li img {
+    width: 3em;
+}
+
+/*Para que los iconos queden centrados se pone en el primero de ellos un margen*/
+.PrimerIcono {
+    margin-left: 30%;
+}
+
+/*En la versión de móvil y tablet se le quita el margen*/
+@media screen and (max-width:992px) {
+    .PrimerIcono {
+        margin-left: 0%;
+    }
+}
+
+.letrasFooter {
+    margin-right: 10%;
+    margin-top: 20%;
+    width: 60%;
+    float: right;
+}
